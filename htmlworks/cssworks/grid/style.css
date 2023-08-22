@@ -1,0 +1,21 @@
+.row{
+    width: 80%;
+    height: 800px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+.item{
+    background-color: yellow;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+.item:nth-child(2){
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+

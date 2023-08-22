@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+
+.card{
+    height: 50px;
+    width: 200px;
+
+    border: 1px  solid black;
+    margin-bottom: 80px;
+}
+
+.card-one{
+    background-color: aqua;
+    margin-right: auto;
+}
+
+.card-two{
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.card-three{
+    background-color: cadetblue;
+    margin-left: auto;
+    
+}
